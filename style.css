@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+header {
+  height: 100vh;
+  background-image: url(https://images.wallpaperscraft.com/image/single/leaves_plant_green_118405_1280x720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.m-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.section-hero {
+  margin-top: 64px;
+}
+
+.layer-1 {
+  border: 30px solid #b9db7e;
+  border-top-left-radius: 52px;
+  border-top-right-radius: 52px;
+}
+
+.layer-2 {
+  border: 30px solid #3fb283;
+  border-top-left-radius: 52px;
+  border-top-right-radius: 52px;
+  margin-top: -48px;
+}
+
+.layer-3 {
+  background-color: #ffffff;
+  border-top-left-radius: 52px;
+  border-top-right-radius: 52px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  margin-top: -48px;
+  /* width: 393px; */
+  height: 692px;
+
+  background-image: url(img/leave-img-1.jpg), url(img/leave-img-2.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 70px 87px, 95px 83px;
+  background-position: 0% 6%, 99% 100%;
+}
+
+.m-logo-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 137px;
+}
+
+.logo-2 {
+  width: 195px;
+  height: 195px;
+}
+
+.text {
+  width: 310px;
+  height: 36px;
+  font-size: 13px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #444444;
+  margin-top: 25px;
+  line-break: anywhere;
+  line-height: 17px;
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 52px;
+}
+
+.sign-up-btn {
+  border: none;
+  background-color: transparent;
+  padding: 12px 81px 12px 81px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #1da684, #bedc7c);
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.log-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.log-in-btn {
+  border: 2.8px solid green;
+  background-color: transparent;
+  padding: 10px 83px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
