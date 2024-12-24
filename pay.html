@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="pay.css" />
+    <link rel="stylesheet" href="queriepay.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <main class="pay-s-d-none">
+      <section class="payment-section">
+        <div class="title">
+          <a href="#">
+            <ion-icon class="cart-icon" name="chevron-back-outline"></ion-icon>
+          </a>
+          <p>Payment method</p>
+        </div>
+
+        <div class="pay-ops">
+          <div class="card-ops">
+            <ion-icon class="card-icon" name="card-outline"></ion-icon>
+            <p>Card</p>
+          </div>
+          <div class="on-pay">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/2702/2702602.png"
+            />
+            <p>Pay</p>
+          </div>
+          <div class="on-pay">
+            <img src="https://cdn-icons-png.flaticon.com/512/154/154870.png" />
+            <p>Pay</p>
+          </div>
+        </div>
+
+        <div class="select-card">
+          <div class="card-add">
+            <p>Select your card</p>
+            <ion-icon class="plus-icon" name="add-outline"></ion-icon>
+          </div>
+          <div class="card-img">
+            <img src="img/card.jpg" />
+          </div>
+          <div class="dots">
+            <button class="dot">&nbsp;</button>
+            <button class="dot dot--fill">&nbsp;</button>
+            <button class="dot">&nbsp;</button>
+          </div>
+        </div>
+
+        <div>
+          <form class="ac-form">
+            <div>
+              <label for="card holder name">Card Holder</label>
+              <input
+                id="card holder"
+                type="text"
+                placeholder="Card Holder Name"
+                required
+              />
+            </div>
+            <div>
+              <label for="card number">Card Number</label>
+              <input
+                id="card number"
+                type="number"
+                placeholder="0000 0000 0000 0000"
+                required
+              />
+            </div>
+            <div>
+              <label for="date">Exp date</label>
+              <input id="exp date" type="date" placeholder="12/24" required />
+            </div>
+            <div>
+              <label for="cvv/cvc">CVV/CVC</label>
+              <input id="cvv" type="number" placeholder="****" required />
+            </div>
+          </form>
+        </div>
+
+        <div class="pay-now">
+          <a href="#" class="pay-now-btn">Pay now</a>
+          <p>Terms & condition applied</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
