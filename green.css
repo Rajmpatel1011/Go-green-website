@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+section {
+  padding: 22px;
+}
+
+.green-area p {
+  text-align: center;
+  color: #444444;
+  letter-spacing: 0.8px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.green-area img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.calcu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.calcu-btn {
+  border: none;
+  padding: 11px 25px 11px 25px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #1da684, #bedc7c);
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.calcu p {
+  font-size: 11px;
+  color: #444444;
+  letter-spacing: 1px;
+}
+
+.fifty {
+  margin-top: 32px;
+}
+
+.fifty-title {
+  text-align: center;
+  font-size: 18px;
+  color: #444444;
+  font-weight: 500;
+}
+
+.fifty-title strong {
+  color: #24a883;
+}
+
+.cercle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 8px solid #24a883;
+  border-radius: 50%;
+  width: 177px;
+  height: 177px;
+
+  font-size: 50px;
+  color: #24a883;
+  font-weight: 600;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+
+.fifty-text {
+  text-align: center;
+  font-size: 15px;
+  color: #444444;
+  font-weight: 300;
+  line-height: 19px;
+  margin-top: 12px;
+}
+
+.sugges {
+  margin-top: 32px;
+}
+
+.sugges-p {
+  text-align: center;
+  color: #444444;
+  letter-spacing: 0.8px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.img-div-b {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.plant-img-1 {
+  width: 44%;
+  height: 100%;
+}
+
+.plant-img-2 {
+  width: 44%;
+  height: 100%;
+}
+
+.plant-img-3 {
+  width: 44%;
+  height: 100%;
+}
+
+.sugges-p-text {
+  text-align: center;
+  font-size: 13px;
+  color: #444444;
+  font-weight: 300;
+  line-height: 19px;
+  margin-top: 20px;
+}
+
+.sugges-p-text a {
+  color: #1da684;
+}
+
+.star-over {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.star-over-btn {
+  border: none;
+  padding: 11px 25px 11px 25px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #1da684, #bedc7c);
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
