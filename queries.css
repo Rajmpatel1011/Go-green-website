@@ -1,0 +1,222 @@
+@media (min-width: 500px) and (max-width: 700px) {
+  .header {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 899px) {
+  .header {
+    padding: 60px 135px 60px 135px;
+  }
+
+  .m-logo {
+    display: none;
+  }
+
+  .section-hero {
+    margin: 0;
+  }
+
+  .logo-2 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .layer-3 {
+    height: 788px;
+  }
+
+  .m-logo-2 {
+    padding-top: 155px;
+  }
+
+  .text {
+    margin-top: 25px;
+    font-size: 14px;
+    width: 308px;
+  }
+
+  .sign-up {
+    margin-top: 52px;
+  }
+
+  .log-in {
+    margin-top: 29px;
+  }
+}
+
+@media (max-width: 900px) {
+  .back-img {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1250px) {
+  .header {
+    padding: 0;
+    background-image: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-hero {
+    margin: 0;
+    width: 100%;
+  }
+
+  .back-img {
+    width: 100%;
+  }
+
+  .m-logo {
+    display: none;
+  }
+
+  .layer-1 {
+    display: none;
+  }
+
+  .layer-2 {
+    display: none;
+  }
+
+  .layer-3 {
+    border-radius: 0px;
+    margin: 0px;
+    height: 944px;
+
+    background-image: url(img/leave-img-3.jpg), url(img/leave-img-4.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: 230px 250px, 145px 150px;
+    background-position: 0% 0%, 100% 100%;
+  }
+
+  .m-logo-2 {
+    padding-top: 200px;
+  }
+
+  .logo-2 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .text {
+    margin-top: 35px;
+    font-size: 18px;
+    width: 395px;
+    line-height: 23px;
+  }
+
+  .sign-up {
+    margin-top: 75px;
+  }
+
+  .log-in {
+    margin-top: 29px;
+  }
+
+  .back-img {
+    display: flex;
+  }
+
+  .back-img img {
+    width: 100%;
+    height: 944px;
+  }
+}
+
+@media (min-width: 1250px) and (max-width: 1950px) {
+  .header {
+    padding: 100px 140px 100px 140px;
+    background-image: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(https://images.wallpaperscraft.com/image/single/leaves_plant_green_118405_1280x720.jpg),
+      url(img/leave-img-5.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 100%, 11% 22%;
+    background-position: 0% 0%, 100% 0%;
+  }
+
+  .section-hero {
+    margin: 0;
+    width: 100%;
+  }
+
+  .back-img {
+    width: 100%;
+  }
+
+  .m-logo {
+    display: none;
+  }
+
+  .layer-1 {
+    display: none;
+  }
+
+  .layer-2 {
+    display: none;
+  }
+
+  .layer-3 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0px;
+    height: 743px;
+
+    /* background-image: none; */
+    background-image: url(img/leave-img-3.jpg), url(img/leave-img-4.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: 230px 250px, 145px 150px;
+    background-position: 0% 0%, 100% 100%;
+  }
+
+  .m-logo-2 {
+    padding-top: 140px;
+  }
+
+  .logo-2 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .text {
+    margin-top: 15px;
+    font-size: 17px;
+    width: 407px;
+    line-height: 23px;
+  }
+
+  .sign-up {
+    margin-top: 55px;
+  }
+
+  .log-in {
+    margin-top: 29px;
+  }
+
+  .back-img {
+    display: flex;
+  }
+
+  .back-img img {
+    width: 100%;
+    height: 743px;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1950px) {
+  .header {
+    padding: 100px 230px 100px 230px;
+  }
+}
