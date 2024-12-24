@@ -1,0 +1,315 @@
+@media (min-width: 500px) {
+  .header {
+    padding: 25px 25px 0px 25px;
+  }
+}
+
+@media (min-width: 520px) {
+  .details {
+    height: 165px;
+  }
+
+  .shop-now {
+    margin-top: 23px;
+  }
+
+  .plant-ops {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 600px) {
+  .details p {
+    width: 443px;
+  }
+}
+
+@media (max-width: 779px) {
+  .img-div-c {
+    display: none;
+  }
+}
+
+@media (min-width: 780px) {
+  .hero-img {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-img img {
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 840px) {
+  .dsply-none {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 72vh;
+    background-color: #f0f1ef;
+
+    background-image: url(img/leave-img-14.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+  }
+
+  .header {
+    background-color: #f0f1ef;
+    background-position: 93% 0%, 99% 0%;
+  }
+
+  .details {
+    margin-top: -60px;
+    padding-right: 0px;
+    align-items: start;
+    height: 370px;
+    gap: 22px;
+  }
+
+  .hero-img {
+    margin: 0px;
+    padding: 0px;
+    height: 65vh;
+
+    padding-left: 30px;
+  }
+
+  .hero-img img {
+    height: 65vh;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .details h3 {
+    text-align: left;
+    font-size: 37px;
+    width: 290px;
+  }
+
+  .details p {
+    text-align: left;
+    font-size: 14px;
+    width: 295px;
+    line-height: 18px;
+    margin: 0px;
+  }
+
+  .shop-now {
+    margin: 0px;
+  }
+
+  .plant-ops {
+    margin-top: 30px;
+    padding: 0px;
+    gap: 70px;
+  }
+
+  .container-img {
+    margin-top: 0px;
+  }
+
+  main {
+    background-color: #fff;
+  }
+
+  .img-div-a {
+    width: 214px;
+    height: 175px;
+    margin-top: -14px;
+  }
+
+  .img-div-c {
+    width: 169px;
+    height: 141px;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+
+  .img-div-c img {
+    width: 105px;
+  }
+}
+
+@media (max-width: 1039px) {
+  .navbar {
+    display: none;
+  }
+
+  .img-div-d {
+    display: none;
+  }
+}
+
+@media (min-width: 1040px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    margin-right: 16%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+  }
+
+  .nav-current {
+    color: #1ba584;
+    font-size: 19px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+
+  .nav {
+    color: #444444;
+    text-decoration: none;
+    font-size: 19px;
+  }
+
+  .nav:hover {
+    color: #1ba584;
+  }
+
+  .img-div-d {
+    width: 156px;
+    height: 125px;
+    background-color: #fff;
+    margin-top: 36px;
+  }
+
+  .img-div-d img {
+    width: 94px;
+  }
+}
+
+@media (min-width: 1130px) {
+  .dsply-none {
+    gap: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    margin-right: 16%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+  }
+
+  .nav {
+    color: #444444;
+    text-decoration: none;
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1330px) {
+  .header {
+    background-position: 95% 0%, 99% 0%;
+  }
+
+  .dsply-none {
+    gap: 75px;
+  }
+
+  .details {
+    padding-left: 80px;
+  }
+
+  .details h3 {
+    font-size: 42px;
+  }
+
+  .plant-ops {
+    gap: 6%;
+  }
+}
+
+@media (max-width: 1439px) {
+  .img-div-e {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .dsply-none {
+    gap: 90px;
+  }
+
+  .hero-img {
+    height: 68vh;
+  }
+
+  .hero-img img {
+    height: 68vh;
+  }
+
+  .img-div-e {
+    width: 125px;
+    height: 114px;
+    background-color: #fff;
+    margin-top: 47px;
+  }
+
+  .img-div-e img {
+    width: 86px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .header {
+    background-position: 96% 0%, 99% 0%;
+  }
+}
+
+@media (min-width: 1560px) {
+  .header {
+    background-position: 96.6% 0%, 99.3% 0%;
+  }
+
+  .details {
+    width: 45%;
+  }
+
+  .details h3 {
+    font-size: 47px;
+    width: 100%;
+  }
+
+  .details p {
+    font-size: 15px;
+    width: 100%;
+    line-height: 21px;
+  }
+}
+
+@media (min-width: 1741px) {
+  .hero-img {
+    height: 70vh;
+  }
+
+  .hero-img img {
+    height: 70vh;
+  }
+
+  .navbar {
+    margin-right: 16%;
+    gap: 70px;
+  }
+}
