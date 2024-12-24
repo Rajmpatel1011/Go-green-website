@@ -1,0 +1,272 @@
+@media (min-width: 545px) {
+  .fifty-text {
+    width: 485px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 660px) {
+  .green-area img {
+    width: 100%;
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .plant-img-1 {
+    width: 87px;
+  }
+
+  .plant-img-2 {
+    width: 76px;
+  }
+
+  .plant-img-3 {
+    width: 100px;
+  }
+}
+
+@media (max-width: 919px) {
+  .img-div-b {
+    display: none;
+  }
+}
+
+@media (min-width: 920px) {
+  .green-area img {
+    width: 859px;
+    height: 460px;
+  }
+
+  .container-img {
+    width: 859px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .plant-img-4 {
+    width: 44%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1150px) {
+  body {
+    background-image: url(img/leave-img-11.jpg), url(img/leave-img-15.jpg);
+    background-repeat: no-repeat;
+    background-size: 14% 24%, 14% 24%;
+    background-position: -4% 50%, 104% 50%;
+  }
+}
+
+@media (min-width: 1399px) {
+  .small-display {
+    display: none;
+  }
+
+  body {
+    background-image: none;
+  }
+}
+
+@media (max-width: 1399px) {
+  .larg-display {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* .green-area img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+
+    width: 100%;
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 859px;
+    height: 460px;
+  } */
+
+  main {
+    height: 100vh;
+  }
+
+  .larg-display {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    height: 100vh;
+  }
+
+  .green-area-img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .green-area-img img {
+    width: 100%;
+    height: 94%;
+    border-radius: 20px;
+  }
+
+  .calcu-l-d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+  }
+
+  .calcu-l-d-btn {
+    border: none;
+    padding: 11px 25px 11px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #1da684, #bedc7c);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .green-container {
+    width: 50%;
+    height: 100%;
+  }
+
+  .container-1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #e7ffca;
+  }
+
+  .container-2 {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #e7ffca;
+
+    height: 44%;
+  }
+
+  .cont-1-head {
+    text-align: center;
+    color: #444444;
+    letter-spacing: 0.8px;
+    font-size: 38px;
+    font-weight: 600;
+  }
+
+  .cercle-s-d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 8px solid #24a883;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+
+    font-size: 50px;
+    color: #24a883;
+    font-weight: 600;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  .cont-1-title {
+    text-align: center;
+    font-size: 22px;
+    color: #444444;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .cont-1-title strong {
+    color: #24a883;
+  }
+
+  .cont-1-text {
+    text-align: center;
+    font-size: 15px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 10px;
+
+    width: 363px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container-img {
+    width: 100%;
+    margin-top: 36px;
+  }
+
+  .plant-img-1 {
+    mix-blend-mode: multiply;
+  }
+
+  .plant-img-2 {
+    mix-blend-mode: multiply;
+  }
+
+  .plant-img-3 {
+    mix-blend-mode: multiply;
+  }
+
+  .plant-img-4 {
+    mix-blend-mode: multiply;
+  }
+
+  .sugges-p-s-d {
+    text-align: center;
+    color: #444444;
+    letter-spacing: 0.8px;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 50px;
+  }
+
+  .sugges-p-s-d-text {
+    text-align: center;
+    font-size: 15px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 50px;
+  }
+
+  .sugges-p-s-d-text a {
+    color: #1da684;
+  }
+
+  .star-over-l-d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+  }
+
+  .star-over-l-d-btn {
+    border: none;
+    padding: 11px 25px 11px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #1da684, #bedc7c);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
