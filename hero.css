@@ -9,9 +9,6 @@ body {
 }
 
 section {
-  /* background-image: url(img/heart.jpg), url(img/cart.jpg);
-  background-repeat: no-repeat;
-  background-position: 81% 0%, 94% 0%; */
 }
 
 main {
@@ -95,6 +92,7 @@ main {
 .hero-img img {
   width: 100%;
   height: 46vh;
+  object-fit: cover;
 }
 
 .container-img {

@@ -12,6 +12,7 @@ header {
   height: 100vh;
   background-image: url(https://images.wallpaperscraft.com/image/single/leaves_plant_green_118405_1280x720.jpg);
   background-size: cover;
+  object-fit: cover;
 }
 
 .m-logo {

@@ -118,13 +118,14 @@
     width: 100%;
     height: 94%;
     border-radius: 20px;
+    object-fit: cover;
   }
 
   .calcu-l-d {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 12px;
+    margin-top: 10px;
   }
 
   .calcu-l-d-btn {
@@ -163,6 +164,7 @@
     letter-spacing: 0.8px;
     font-size: 38px;
     font-weight: 600;
+    margin-top: 3px;
   }
 
   .cercle-s-d {
@@ -256,7 +258,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 21px;
+    margin-top: 18px;
   }
 
   .star-over-l-d-btn {
